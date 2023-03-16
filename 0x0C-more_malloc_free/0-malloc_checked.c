@@ -4,17 +4,17 @@
 
 /**
 * malloc_checked - allocates memory
-* @b: unsigned int
-* Return: pointer to the new memory
+* @b: unsigned integer
+* Return: nothing
 */
 
 void *malloc_checked(unsigned int b)
 {
-void *n;
+int *ptr;
 
-n = malloc(b);
+ptr = malloc(b);
 
-if (n == NULL)
+if (ptr == NULL)
 exit(98);
 return (n);
 }

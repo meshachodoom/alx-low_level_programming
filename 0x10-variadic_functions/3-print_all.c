@@ -17,7 +17,7 @@ va_start(args, format);
 i = 0;
 
 while (format && format[i])
-}
+{
 switch (format[i])
 {
 case 'c':
